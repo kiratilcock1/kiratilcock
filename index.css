@@ -94,6 +94,9 @@ ul.dash > li:before {
 hr {
   margin-top: 50px;
   margin-bottom: 50px;
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgb(34, 34, 34);
 }
 .external {
  text-align: center;
