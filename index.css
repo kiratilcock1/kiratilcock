@@ -32,7 +32,7 @@ body {
 }
 .footer {
   width: 100%;
-  height: 430px;
+  height: 420px;
   background-color: #262626;
   color: white !important;
   margin-top: 50px;
@@ -43,7 +43,6 @@ h1{
   text-align: center;
   font-weight: 700;
   font-size: 42px;
-
 }
 h2 {
   font-size: 16px;
@@ -54,7 +53,6 @@ h3 {
   font-family: 'Merriweather', serif;
   font-size: 26px;
   font-weight: normal;
-
 }
 a {
   line-height: 50px;
@@ -90,7 +88,6 @@ ul.dash > li:before {
 .headshot {
   width: 100%;
 }
-
 hr {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -156,5 +153,8 @@ hr {
   }
   .left {
     width: 100%;
+  }
+  .footer {
+    height: 500px;
   }
 }
