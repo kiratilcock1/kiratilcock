@@ -6,6 +6,14 @@ html, body {
 body {
   font-family: 'Space Mono', monospace;
 }
+::selection {
+  background: #6E1FFF; /* WebKit/Blink Browsers */
+  color: white;
+}
+::-moz-selection {
+  background: #6E1FFF; /* Gecko Browsers */
+  color: white;
+}
 .header {
   height: 50px;
   margin: 0;
@@ -18,7 +26,9 @@ body {
 .content {
   max-width: 900px;
   margin-right: auto;
-  margin-left: auto
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .footer {
   width: 100%;
@@ -32,7 +42,8 @@ h1{
   font-family: 'Merriweather', serif;
   text-align: center;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 42px;
+
 }
 h2 {
   font-size: 16px;
@@ -76,6 +87,9 @@ ul.dash > li:before {
     width: 1em;
     margin-left: -1em;
 }
+.headshot {
+  width: 100%;
+}
 
 hr {
   margin-top: 50px;
@@ -93,11 +107,6 @@ hr {
   width: 48%;
   padding-top: 15px;
 }
-
-.headshot{
-  width: 100%;
-}
-
 .wrap {
   display: flex;
   display: -webkit-box;
@@ -117,7 +126,7 @@ hr {
   padding-left: 40px;
 }
 /* MOBILE */
-@media (max-width: 800px) {
+@media (max-width: 780px) {
   .wrap {
     flex-direction: column;
   }
@@ -134,16 +143,8 @@ hr {
   h3 {
     padding-top: 20px;
   }
-  hr {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
   t {
     padding: 0;
-  }
-  .content {
-    padding-left: 15px;
-    padding-right: 15px;
   }
   .right {
     text-align: left;
