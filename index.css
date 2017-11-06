@@ -90,6 +90,8 @@ a.color:hover {
   margin-right: auto;
   left: 0;
   right: 0;
+  color: rgb(152, 152, 152);
+  font-size: 14px;
 }
 .white {
   color: white;
@@ -215,7 +217,6 @@ hr {
     transform: none;
   }
 }
-
 .fadeInUp {
   animation: fadeInUp 1s;
   -moz-animation: fadeInUp 1s; /* Firefox */
