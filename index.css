@@ -27,13 +27,13 @@ body {
   font-family: 'Walsheim';
 }
 .header {
-  height: 50px;
+  height: 100px;
   margin: 0;
   position: static;
   top: 0;
   left: 0;
   width: 100%;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 .content {
   max-width: 900px;
@@ -49,6 +49,7 @@ body {
   color: white !important;
   margin-top: 50px;
 }
+
 /* Typography */
 h1{
   font-family: 'Merriweather', sans-serif;
@@ -118,8 +119,21 @@ hr {
   height: 0;
   border-top: 1px solid rgb(34, 34, 34);
 }
-.external {
- text-align: center;
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+.skill {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+i {
+  -webkit-text-stroke: 2px #f5f5f5;
+}
+i.no-stroke {
+  -webkit-text-stroke: 0px #f5f5f5;
 }
 .right {
   text-align: right;
@@ -180,6 +194,12 @@ hr {
   }
   .footer {
     height: 500px;
+  }
+  .grid {
+      grid-template-columns: repeat(2, 1fr);
+      max-width: 400px;
+      margin-left: auto;
+      margin-right: auto;
   }
 }
 
