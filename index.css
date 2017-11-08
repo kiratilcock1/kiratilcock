@@ -23,7 +23,6 @@ html, body {
     font-size: 18px;
 }
 body {
-  /*  font-family: 'Space Mono', monospace;*/
   font-family: 'Walsheim';
 }
 .header {
@@ -51,7 +50,7 @@ body {
 }
 
 /* Typography */
-h1{
+h1 {
   font-family: 'Merriweather', sans-serif;
   text-align: center;
   font-weight: 700;
