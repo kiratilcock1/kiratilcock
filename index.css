@@ -43,8 +43,8 @@ body {
 }
 .footer {
   width: 100%;
-  height: 300px;
-  background-color: #262626;
+  height: 370px;
+  background-color: #333333;
   color: white !important;
   margin-top: 50px;
 }
@@ -56,6 +56,9 @@ body {
   border-radius: 50%;
   margin-right: auto;
   margin-left: auto;
+}
+.space {
+  margin-bottom: 10px;
 }
 /* Typography */
 h1 {
