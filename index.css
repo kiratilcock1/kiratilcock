@@ -24,6 +24,7 @@ html, body {
 }
 body {
   font-family: 'Walsheim';
+
 }
 .header {
   height: 100px;
@@ -48,7 +49,15 @@ body {
   color: white !important;
   margin-top: 50px;
 }
-
+.circle {
+  background: linear-gradient(315deg, #1A7DD7 0%, #03275A 100%);
+/*background: linear-gradient(315deg, #1A7DD7 0%, #d70270 100%);*/
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: auto;
+  margin-left: auto;
+}
 /* Typography */
 h1 {
   font-family: 'Merriweather', sans-serif;
@@ -96,7 +105,6 @@ a.color:hover {
 .white {
   color: white;
 }
-
 ul.dash {
     list-style: none;
     margin-left: 0;
@@ -154,11 +162,11 @@ i.no-stroke {
   width: 250px;
 }
 .two {
-  width: 325px;
+  width: 350px;
   padding-left: 40px;
 }
 .three {
-  width: 325px;
+  width: 300px;
   padding-left: 40px;
 }
 /* MOBILE */
