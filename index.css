@@ -115,9 +115,7 @@ ul.dash > li:before {
     width: 1em;
     margin-left: -1em;
 }
-.headshot {
-  width: 100%;
-}
+
 hr {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -163,18 +161,19 @@ i.no-stroke {
 .two {
   width: 350px;
   padding-left: 40px;
+
 }
 .three {
   width: 300px;
   padding-left: 40px;
 }
+.headshot {
+  width: 100%;
+}
 /* MOBILE */
 @media (max-width: 780px) {
   .wrap {
     flex-direction: column;
-  }
-  .one {
-    width: 325px;
   }
   .one,
   .two,
@@ -183,6 +182,12 @@ i.no-stroke {
     margin-right: auto;
     display: inline-block;
     padding: 0;
+    width: 100%;
+    max-width: 350px;
+  }
+  .two,
+  .three {
+    padding-top: 30px;
   }
   t {
     padding: 0;
