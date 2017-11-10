@@ -60,6 +60,9 @@ body {
 .space {
   margin-bottom: 10px;
 }
+#footer-content {
+  padding-top: 50px;
+}
 /* Typography */
 h1 {
   font-family: 'Merriweather', sans-serif;
@@ -216,8 +219,21 @@ i.no-stroke {
 }
 /* MOBILE */
 @media (max-width: 780px) {
+  body {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  h3 {
+    font-size: 24px;
+  }
   .wrap {
     flex-direction: column;
+    margin-top: 30px;
   }
   .one,
   .two,
@@ -231,7 +247,7 @@ i.no-stroke {
   }
   .two,
   .three {
-    padding-top: 30px;
+    padding-top: 20px;
   }
   t {
     padding: 0;
@@ -245,13 +261,20 @@ i.no-stroke {
     width: 100%;
   }
   .footer {
-    height: 450px;
+    height: 440px;
+  }
+  #footer-content {
+    padding-top: 20px;
   }
   .grid {
       grid-template-columns: repeat(2, 1fr);
       max-width: 500px;
       margin-left: auto;
       margin-right: auto;
+  }
+  hr {
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
 }
 
