@@ -176,6 +176,7 @@ hr {
 /* IE Warning Sign */
 .ie {
   display: none;
+  visibility: hidden;
 }
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
    /* IE10+ CSS, You can get away using Edge but IE will give this message*/
