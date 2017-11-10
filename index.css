@@ -172,6 +172,26 @@ hr {
   -ms-grid-row: 2;
   -ms-grid-column: 4;
 }
+
+/* IE Warning Sign */
+.ie {
+  display: none;
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+   /* IE10+ CSS, You can get away using Edge but IE will give this message*/
+   .ie {
+       display: block;
+       border: 1px solid black;
+       margin-bottom: 20px;
+       width: 700px;
+       margin-left: auto;
+       margin-right: auto;
+       animation: fadeOut 10s;
+       opacity: 0;
+       color: red;
+   }
+}
+
 .skill {
   margin-left: auto;
   margin-right: auto;
@@ -287,6 +307,14 @@ i.no-stroke {
   to {
     opacity: 1;
     transform: none;
+  }
+}
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
   }
 }
 .fadeInUp {
