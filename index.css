@@ -219,14 +219,12 @@ i.no-stroke {
 }
 /* MOBILE */
 @media (max-width: 780px) {
-  body {
+  body,
+  h2 {
     font-size: 16px;
   }
   h1 {
     font-size: 40px;
-  }
-  h2 {
-    font-size: 16px;
   }
   h3 {
     font-size: 24px;
