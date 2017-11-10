@@ -2,23 +2,13 @@
   font-family: 'Walsheim';
   src: url('fonts/walsheim/GT-Walsheim-Regular.eot'); /* IE9 Compat Modes */
   src: url('fonts/walsheim/GT-Walsheim-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('fonts/walsheim/GT-Walsheim-Regular.woff2') format('woff2'), /* Super Modern Browsers */
        url('fonts/walsheim/GT-Walsheim-Regular.woff') format('woff'), /* Pretty Modern Browsers */
-       url('fonts/walsheim/GT-Walsheim-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('fonts/walsheim/GT-Walsheim-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+       url('fonts/walsheim/GT-Walsheim-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
-@font-face {
-  font-family: 'Walsheim-Bold';
-  src: url('fonts/walsheim/GT-Walsheim-Bold.eot'); /* IE9 Compat Modes */
-  src: url('fonts/walsheim/GT-Walsheim-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('fonts/walsheim/GT-Walsheim-Bold.woff2') format('woff2'), /* Super Modern Browsers */
-       url('fonts/walsheim/GT-Walsheim-Bold.woff') format('woff'), /* Pretty Modern Browsers */
-       url('fonts/walsheim/GT-Walsheim-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('fonts/walsheim/GT-Walsheim-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
-}
+
 html, body {
-    margin: 0;
-    height: 100%;
+  margin: 0;
+  height: 100%;
 }
 body {
   font-size: 18px;
