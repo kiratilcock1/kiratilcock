@@ -100,6 +100,16 @@ a.color:hover {
 .white {
   color: white;
 }
+.underline {
+  border-bottom: 2px solid currentColor;
+  display: inline-block;
+  line-height: 0.85;
+  text-shadow:
+    2px 2px #f5f5f5,
+    2px -2px  #f5f5f5,
+    -2px 2px  #f5f5f5,
+    -2px -2px  #f5f5f5;
+}
 ul.dash {
     list-style: none;
     margin-left: 0;
@@ -307,6 +317,45 @@ i.no-stroke {
   to {
     opacity: 0;
   }
+}
+@keyframes slideInLeft {
+  from {
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes slideInRight {
+  from {
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation: fadeIn 2s;
+}
+.slideInRight {
+  animation: slideInRight 0.5s;
+}
+.slideInLeft {
+  animation: slideInLeft 0.5s;
 }
 .fadeInUp {
   animation: fadeInUp 1s;
