@@ -231,6 +231,7 @@ i.no-stroke {
   }
   .wrap {
     flex-direction: column;
+    -ms-flex-direction: column;  /* IE 10 */
     margin-top: 30px;
   }
   .one,
