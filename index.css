@@ -260,6 +260,7 @@ i.no-stroke {
   }
   p.cite {
     font-size: 0.8rem;
+    text-align: right;
   }
   .wrap {
     flex-direction: column;
