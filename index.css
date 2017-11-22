@@ -217,7 +217,6 @@ i.no-stroke {
 }
 .wrap {
   display: flex;
-  display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   margin-top: 50px;
