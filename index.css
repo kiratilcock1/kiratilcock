@@ -261,10 +261,6 @@ i.no-stroke {
   h3 {
     font-size: 1.2rem;
   }
-  p.cite {
-    font-size: 0.8rem;
-    text-align: right;
-  }
   .wrap {
     flex-direction: column;
     -ms-flex-direction: column;  /* IE 10 */
