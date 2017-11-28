@@ -24,8 +24,8 @@ html, body {
 }
 .header-color {
   background: #0e5096;
-  color: white !important;
-  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2)
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+  color: white;
 }
 .top-right {
   float: right;

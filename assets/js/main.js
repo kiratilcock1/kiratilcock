@@ -3,11 +3,11 @@ $(window).on('scroll', function () {
     var scrollTop = $(window).scrollTop();
 
       if (scrollTop > 150) {
-          $('#header').addClass('header-color')
-          $('.top-right').addClass('white')
+        $('.top-right').addClass('white')
+          $('#header').addClass('header-color', 500)
       }
       else {
-          $('#header').removeClass('header-color')
           $('.top-right').removeClass('white')
+          $('#header').removeClass('header-color', 500)
       }
 });
