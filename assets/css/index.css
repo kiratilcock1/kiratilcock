@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'Walsheim';
-  src: url('fonts/walsheim/GT-Walsheim-Regular.eot'); /* IE9 Compat Modes */
-  src: url('fonts/walsheim/GT-Walsheim-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('fonts/walsheim/GT-Walsheim-Regular.woff') format('woff'), /* Pretty Modern Browsers */
-       url('fonts/walsheim/GT-Walsheim-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
+  src: url('../fonts/walsheim/GT-Walsheim-Regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/walsheim/GT-Walsheim-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/walsheim/GT-Walsheim-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/walsheim/GT-Walsheim-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 
 html, body {
@@ -14,14 +14,23 @@ html, body {
   background-color: #f5f5f5;
 
 }
-.header {
-  height: 100px;
+#header {
+  height: 50px;
   margin: 0;
-  position: static;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  padding-bottom: 50px;
+}
+.header-color {
+  background: #0e5096;
+  color: white !important;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2)
+}
+.top-right {
+  float: right;
+  text-align: right;
+  color: #0F5399;
 }
 .content {
   max-width: 900px;
@@ -118,7 +127,7 @@ a.color:hover {
   font-size: 0.9rem;
 }
 .white {
-  color: white;
+  color: white !important;
 }
 .underline {
   border-bottom: 2px solid currentColor;

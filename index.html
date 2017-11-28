@@ -10,12 +10,12 @@
   <title>Eamon Murphy</title>
 
   <!-- Stylesheets -->
-  <link rel="stylesheet" type="text/css" href="index.css">
-  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+  <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="assets/images/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="assets/images/favicon-16x16.png" sizes="16x16">
 
   <!-- Typography -->
   <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700" rel="stylesheet">
@@ -33,16 +33,20 @@
 </head>
 
 <body>
+  <!-- Javascript/jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/js/main.js"></script>
+
   <!-- Header -->
   <header>
-  <div class="header">
+  <div id="header">
     <a class="head slideInLeft" style="float: left;">Eamon Murphy</a>
-    <a class="head slideInRight" style="float: right; text-align: right; color: #0F5399" href="mailto:info@eamonmurphy.ca">Contact</a>
+    <a class="head slideInRight top-right" href="info@eamonmurphy.ca">Contact</a>
   </div>
   </header>
 
   <!-- Content -->
-  <div class="content">
+  <div class="content" style="margin-top: 150px;">
     <div class="fadeInUp">
       <div class="circle"></div>
       <h1>Eamon Murphy</h1>
@@ -52,7 +56,7 @@
     <div class="fadeIn">
       <div class="wrap">
         <div class="one">
-          <img src="images/headshot.jpg" class="headshot">
+          <img src="assets/images/headshot.jpg" class="headshot">
         </div>
         <div class="two">
           <h3 style="margin-top: -4px;">About:</h3>
@@ -187,7 +191,7 @@
     <hr>
     <h3 style="text-align: center">Transferable Skills</h3>
     <div class="grid">
-      <div class="skill a"><img src="images/adapt.png" style="height: 55px; margin:0;"><p style="margin-top: 9px">Adaptable</p></div>
+      <div class="skill a"><img src="assets/images/adapt.png" style="height: 55px; margin:0;"><p style="margin-top: 9px">Adaptable</p></div>
       <div class="skill b"><i class="fa fa-picture-o fa-3x" aria-hidden="true"></i><p>Creative</p></div>
       <div class="skill c"><i class="fa fa-clock-o fa-3x" aria-hidden="true"></i><p>Effective Time Manager</p></div>
       <div class="skill d"><i class="fa fa-language fa-3x no-stroke" aria-hidden="true"></i><p>Bilingual English/French</div>
@@ -213,11 +217,11 @@
 </div> <!--fadein div-->
 </div>
 <!-- Footer -->
-<footer>
+<footer >
 <div class="footer" style="position: relative;">
   <div class="content" id="footer-content">
     <h1>Interested in working with me?</h1>
-    <address style="font-style: normal;">
+    <address style="font-style: normal;" name="contact-me">
       <h2>See my <a class="white color" href='#'>printable resume here</a>, <a class="white color" href='mailto:info@eamonmurphy.ca'>send me an e-mail</a>, or <a class="white color" href='tel:1.250.307.0453'>give me a call</a>.</h2>
       <h2 style="margin-top: 40px; margin-bottom: 20px;">e-mail: <a class="white color" href='mailto:info@eamonmurphy.ca'>info@eamonmurphy.ca</a> <br> phone: <a class="white color" href='tel:1.250.307.0453'>1-250-307-0453</a></h2>
     </address>
