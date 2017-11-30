@@ -59,8 +59,24 @@ html, body {
   border-radius: 50%;
   margin-right: auto;
   margin-left: auto;
-  animation: color-shift 5s ease;
+  animation: bob 5s ease infinite;
 }
+
+@keyframes bob {
+  0% {
+    -webkit-transform: translateY(-25px);
+    transform: translateY(-25px);
+  }
+  50% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+  100% {
+    -webkit-transform: translateY(-25px);
+    transform: translateY(-25px);
+  }
+}
+
 @keyframes color-shift {
     0% {background-position:0% 50%}
     50% {background-position:100% 50%}
