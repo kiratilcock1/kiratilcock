@@ -15,7 +15,7 @@ html, body {
   color: rgb(22, 40, 50);
 }
 #header {
-  height: 50px;
+  height: 60px;
   margin: 0;
   position: fixed;
   top: 0;
@@ -100,9 +100,9 @@ p.cite {
   text-align: right;
 }
 a.head {
-  line-height: 50px;
-  padding-left: 15px;
-  padding-right: 15px;
+  line-height: 60px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 a.color:hover {
   color: #066dd7;
@@ -114,6 +114,20 @@ a.color:hover {
 ::-moz-selection {
   background: #6E1FFF; /* Gecko Browsers */
   color: white;
+}
+.skill:hover {
+  color: #0e5096;
+}
+.adapt {
+  background-image: url('../images/adapt.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 55px;
+  margin:0;
+}
+.adapt:hover{
+  background-image: url('../images/adapt-blue.png');
 }
 .copyright {
   text-align: center;
@@ -136,7 +150,7 @@ a.color:hover {
   border-radius: 5px;
   vertical-align: middle;
   text-align: center;
-  margin: 6px 15px;
+  margin: 12px 12px;
   text-decoration: none !important;
   border: 2px solid #0e5096;
   color: #f5f5f5;
