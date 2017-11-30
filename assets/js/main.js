@@ -2,7 +2,7 @@ $(window).on('scroll', function () {
 
     var scrollTop = $(window).scrollTop();
 
-      if (scrollTop > 150) {
+      if (scrollTop > 125) {
         $('.top-right').addClass('white')
         $('#header').addClass('header-color', 500)
         $('#contactbutton').addClass('button-outline', 500)
