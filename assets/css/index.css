@@ -64,9 +64,6 @@ html, body {
   box-shadow: 0 0 10px 10px #c2c1c1;
   margin-bottom: 50px;
 }
-
-
-
 .space {
   margin-bottom: 10px;
 }
@@ -89,6 +86,25 @@ h3 {
   font-family: 'Merriweather', serif;
   font-size: 1.4rem;
   font-weight: bold;
+}
+.accent{
+  color: #0e5096;
+}
+.underline {
+  border-bottom: 4px solid #0e5096;
+  padding: 0 5px;
+  display: inline-block;
+  line-height: 0.9;
+  text-shadow:
+    2px 2px #f5f5f5,
+    2px -2px #f5f5f5,
+    -2px 2px #f5f5f5,
+    -2px -2px #f5f5f5;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 li,
 t,
