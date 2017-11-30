@@ -48,18 +48,31 @@ html, body {
 }
 .circle {
   background: linear-gradient(315deg, #1A7DD7 0%, #03275A 100%);
+   display: block;
+
   /*
   background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
   background-size: 400% 400%;
   background: linear-gradient(0deg, #d70270, #1662a7, #03275A);
   background: linear-gradient(315deg, #1A7DD7 0%, #d70270 100%);
   */
+
   width: 150px;
   height: 150px;
   border-radius: 50%;
   margin-right: auto;
   margin-left: auto;
   animation: bob 5s ease infinite;
+}
+
+.shadow {
+  width: 90px;
+  height: 5px;
+  margin: auto;
+  background: #b9b9b9;
+  border-radius: 40%;
+  box-shadow: 0 0 15px 10px #b9b9b9;
+  animation: breath 5s ease infinite;
 }
 
 @keyframes bob {
@@ -75,6 +88,22 @@ html, body {
     -webkit-transform: translateY(-25px);
     transform: translateY(-25px);
   }
+}
+
+@keyframes breath {
+  0% {
+    box-shadow: 0 0 20px 15px #bfbfbf;
+    background: #bfbfbf;
+  }
+  50%{
+    box-shadow: 0 0 10px 10px #b9b9b9;
+    background: #b9b9b9;
+  }
+  100% {
+    box-shadow: 0 0 20px 15px #bfbfbf;
+    background: #bfbfbf;
+  }
+
 }
 
 @keyframes color-shift {
