@@ -33,18 +33,13 @@
 
 </head>
 
-<body>
-
-  <!-- Javascript/jquery -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js" integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E=" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="assets/js/main.js"></script>
+<body >
 
   <!-- Header -->
   <header>
-  <div id="header">
+  <div id="header" data-0="background-color: rgb(245,245,245); color: black; box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);" data-150="background-color: rgb(14,80,150); color: white; box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);">
     <a class="head slideInLeft" style="float: left;">Eamon Murphy</a>
-    <a id="contactbutton" class="slideInRight top-right button"  href="mailto:info@eamonmurphy.ca">Contact</a>
+    <a id="contactbutton" data-0="border: 2px solid rgb(14,80,150);" data-150="border: 2px solid rgb(245,245,245);" class="slideInRight top-right button"  href="mailto:info@eamonmurphy.ca">Contact</a>
   </div>
   </header>
 
@@ -126,9 +121,11 @@
 
     <hr>
 
-    <h3 style="margin-bottom: -30px;">Employment History</h3>
+    <div data-scroll="toggle(.visible, .invisible)">
+      <h3 style="margin-bottom: -30px;">Employment History</h3>
+    </div>
 
-    <div class="wrap">
+    <div data-scroll="toggle(.visible, .invisible)" class="wrap">
         <div class="left">
           <t>Edge Sustainability Consultants</t>
         </div>
@@ -141,7 +138,7 @@
       <li>Produced a case study showing energy consumption reduction by employing IOT connected daylighting sensors.</li>
     </ul>
 
-    <div class="wrap">
+    <div data-scroll="toggle(.visible, .invisible)" class="wrap">
         <div class="left">
           <t>Slickspaces</t>
         </div>
@@ -154,7 +151,7 @@
         <li>Developed PHP using the Laravel 5.5 framework and created custom HTML e-mails to communicate to clients.</li>
       </ul>
 
-      <div class="wrap">
+      <div data-scroll="toggle(.visible, .invisible)" class="wrap">
           <div class="left">
             <t>Ministry of Community, Sport, and Cultural Development</t>
           </div>
@@ -167,7 +164,7 @@
         <li>Created an analysis of grant applications examining reviewer bias, score breakdown,and geographic distributions to provide a comprehensive review as to how grant questions could improve.</li>
       </ul>
 
-      <div class="wrap">
+      <div data-scroll="toggle(.visible, .invisible)" class="wrap">
           <div class="left">
             <t>Indigenous and Northern Affairs Canada</t>
           </div>
@@ -180,7 +177,7 @@
         <li>Created independently; a GIS map detialing civic renumeration for housing stock, a data analysis of asset management report.</li>
       </ul>
 
-      <div class="wrap">
+      <div data-scroll="toggle(.visible, .invisible)" class="wrap">
           <div class="left">
             <t>Natural Resources Canada</t>
           </div>
@@ -195,18 +192,23 @@
       </ul>
 
     <hr>
-    <h3 style="text-align: center">Transferable Skills</h3>
-    <div class="grid">
-      <div class="skill a"><div class="adapt"></div><p style="margin-top: 9px">Adaptable</p></div>
-      <div class="skill b"><i class="fa fa-picture-o fa-3x" aria-hidden="true"></i><p>Creative</p></div>
-      <div class="skill c"><i class="fa fa-clock-o fa-3x" aria-hidden="true"></i><p>Effective Time Manager</p></div>
-      <div class="skill d"><i class="fa fa-language fa-3x no-stroke" aria-hidden="true"></i><p>Bilingual English/French</div>
-      <div class="skill e"><i class="fa fa-comments fa-3x" aria-hidden="true"></i><p>Articulate</p></div>
-      <div class="skill f"><i class="fa fa-check fa-3x" aria-hidden="true"></i><p>Results Oriented</p></div>
-      <div class="skill g"><i class="fa fa-puzzle-piece fa-3x" aria-hidden="true"></i><p>Critical Thinker</p></div>
-      <div class="skill h"><i class="fa fa-handshake-o fa-3x" aria-hidden="true"></i><p>Team Player</p></div>
+
+    <div data-scroll="toggle(.visible, .invisible)">
+      <h3 style="text-align: center">Transferable Skills</h3>
+      <div class="grid">
+        <div class="skill a"><div class="adapt"></div><p style="margin-top: 9px">Adaptable</p></div>
+        <div class="skill b"><i class="fa fa-picture-o fa-3x" aria-hidden="true"></i><p>Creative</p></div>
+        <div class="skill c"><i class="fa fa-clock-o fa-3x" aria-hidden="true"></i><p>Effective Time Manager</p></div>
+        <div class="skill d"><i class="fa fa-language fa-3x no-stroke" aria-hidden="true"></i><p>Bilingual English/French</div>
+        <div class="skill e"><i class="fa fa-comments fa-3x" aria-hidden="true"></i><p>Articulate</p></div>
+        <div class="skill f"><i class="fa fa-check fa-3x" aria-hidden="true"></i><p>Results Oriented</p></div>
+        <div class="skill g"><i class="fa fa-puzzle-piece fa-3x" aria-hidden="true"></i><p>Critical Thinker</p></div>
+        <div class="skill h"><i class="fa fa-handshake-o fa-3x" aria-hidden="true"></i><p>Team Player</p></div>
+      </div>
     </div>
+
     <hr>
+
     <h3>Hobbies</h3>
     <p>
       Hiking:
@@ -220,26 +222,34 @@
       Photography:
       Accomplished photographer with images appearing in ELLE Canada; CBC Weather Network, Awesome Okanagan, Travel Yukon's Instagram, and several self-published photo books.
     </p>
-</div> <!--fadein div-->
-</div>
-<!-- Footer -->
-<footer >
-<div class="footer" style="position: relative;">
-  <div class="content" id="footer-content">
-    <h1>Interested in working with me?</h1>
-    <address style="font-style: normal;" name="contact-me">
-      <h2>See my <a class="white color" href='#'>printable resume here</a>, <a class="white color" href='mailto:info@eamonmurphy.ca'>send me an e-mail</a>, or <a class="white color" href='tel:1.250.307.0453'>give me a call</a>.</h2>
-      <h2 style="margin-top: 40px; margin-bottom: 20px;">e-mail: <a class="white color" href='mailto:info@eamonmurphy.ca'>info@eamonmurphy.ca</a> <br> phone: <a class="white color" href='tel:1.250.307.0453'>1-250-307-0453</a></h2>
-    </address>
-    <!-- LinkedIn
-    <h2><a class="white color" style="text-align: center; width: 100%"href="https://www.linkedin.com/in/eamon-murphy/"><i class="fa fa-linkedin fa-2x no-stroke" aria-hidden="true"></i></a></h2>
-  -->
+  </div> <!--fadein div-->
   </div>
-  <div class="copyright">
-    <p><small>© 2017 Eamon Murphy</small></p>
+
+  <!-- Footer -->
+  <footer >
+  <div class="footer" style="position: relative;">
+    <div class="content" id="footer-content">
+      <h1>Interested in working with me?</h1>
+      <address style="font-style: normal;" name="contact-me">
+        <h2>See my <a class="white color" href='#'>printable resume here</a>, <a class="white color" href='mailto:info@eamonmurphy.ca'>send me an e-mail</a>, or <a class="white color" href='tel:1.250.307.0453'>give me a call</a>.</h2>
+        <h2 style="margin-top: 40px; margin-bottom: 20px;">e-mail: <a class="white color" href='mailto:info@eamonmurphy.ca'>info@eamonmurphy.ca</a> <br> phone: <a class="white color" href='tel:1.250.307.0453'>1-250-307-0453</a></h2>
+      </address>
+      <!-- LinkedIn
+      <h2><a class="white color" style="text-align: center; width: 100%"href="https://www.linkedin.com/in/eamon-murphy/"><i class="fa fa-linkedin fa-2x no-stroke" aria-hidden="true"></i></a></h2>
+    -->
+    </div>
+    <div class="copyright">
+      <p><small>© 2017 Eamon Murphy</small></p>
+    </div>
   </div>
-</div>
-</footer>
+  </footer>
+
+  <!-- Skroll Libary + Color Libary -->
+  <script src="js/skroll-colors.min.js"></script>
+  <script type="text/javascript" src="assets/js/skrollr.min.js"></script>
+	<script type="text/javascript">
+	var s = skrollr.init();
+	</script>
 
 </body>
 </html>
