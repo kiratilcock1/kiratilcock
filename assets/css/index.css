@@ -82,6 +82,7 @@ h3 {
   font-family: 'Merriweather', serif;
   font-size: 1.4rem;
   font-weight: bold;
+  color: black !important;
 }
 .accent{
   color: #0e5096;
@@ -96,6 +97,10 @@ h3 {
     2px -2px #f5f5f5,
     -2px 2px #f5f5f5,
     -2px -2px #f5f5f5;
+}
+
+.black {
+  color: black !important;
 }
 
 .center {
@@ -333,8 +338,10 @@ i.no-stroke {
   .three {
     padding-top: 20px;
   }
-  t {
+  .t {
     padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
   }
   .right {
     text-align: left;
