@@ -182,6 +182,9 @@ a.color:hover {
 .white {
   color: white !important;
 }
+.no-underline {
+  text-decoration: none !important;
+}
 .button {
   padding: 3px 15px;
   -webkit-border-radius: 5px;
