@@ -6,6 +6,18 @@
        url('../fonts/walsheim/GT-Walsheim-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 
+@font-face {
+  font-family: 'Walsheim';
+  font-weight: bold;
+  src: url('../fonts/walsheim/GT-Walsheim-Bold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/walsheim/GT-Walsheim-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/walsheim/GT-Walsheim-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/walsheim/GT-Walsheim-Bold.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+* {
+  box-sizing: border-box;
+}
+
 html, body {
   margin: 0;
   height: 100% !important;
@@ -22,6 +34,12 @@ html, body {
   left: 0;
   width: 100%;
   z-index: 10;
+  background: #f5f5f5;
+}
+#header.header-color {
+  background: #0e5096;
+  color: white !important;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
 }
 .top-right {
   float: right;
@@ -102,6 +120,9 @@ h3 {
 .black {
   color: black !important;
 }
+.bold {
+  font-weight: bold;
+}
 
 .center {
   margin-left: auto;
@@ -179,7 +200,7 @@ a.color:hover {
   background: #f5f5f5;
   color: #0e5096;
 }
-.button-outline {
+#contactbutton.button-outline {
   border: 2px solid #f5f5f5;
 }
 .button-outline:hover {
@@ -549,4 +570,14 @@ i.no-stroke {
 .fadeInUp {
   -webkit-animation: fadeInUp 1s; /* Safari and Chrome */
   animation: fadeInUp 1s;
+}
+
+/* Animate On Scroll */
+
+[data-aos="headercolor"] {
+  background: #f5f5f5;
+  transition-property: background;
+  &.aos-animate {
+    background: #0e5096;
+  }
 }

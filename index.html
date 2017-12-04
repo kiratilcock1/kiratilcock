@@ -14,6 +14,8 @@
   <link rel="stylesheet" type="text/css" href="assets/css/index.css">
   <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
 
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="assets/images/favicon-32x32.png" sizes="32x32">
   <link rel="icon" type="image/png" href="assets/images/favicon-16x16.png" sizes="16x16">
@@ -31,27 +33,25 @@
     gtag('config', 'UA-98133409-1');
   </script>
 
+
+
 </head>
 
 <body>
 
   <!-- Header -->
-  <header>
-  <div id="header" data-0="background-color: rgb(245,245,245); color: black; box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);" data-150="background-color: rgb(14,80,150); color: white; box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);">
+  <div id="header">
     <a class="head slideInLeft" style="float: left;">Eamon Murphy</a>
-    <a id="contactbutton" data-0="border: 2px solid rgb(14,80,150);" data-150="border: 2px solid rgb(245,245,245);" class="slideInRight top-right button"  href="mailto:info@eamonmurphy.ca">Contact</a>
+    <a id="contactbutton" class="slideInRight top-right button"  href="mailto:info@eamonmurphy.ca">Contact</a>
   </div>
-  </header>
 
   <!-- Content -->
-  <div id="skrollr-body">
-
   <div class="content" style="margin-top: 150px;">
     <div class="fadeInUp">
       <div class="circle bob"></div>
       <div class="shadow breath"></div>
       <div class="center">
-        <h1 class="black">Eamon Murphy</h1>
+        <h1  class="black">Eamon Murphy</h1>
       </div>
       <h2 style="max-width: 550px; margin-left: auto; margin-right: auto;">In August 2018 I graduate from the Department of Civil Engineering at the University of Victoria, Canada.</h2>
     </div>
@@ -83,21 +83,21 @@
     <hr>
     <h3>Civil Engineering</h3>
     <ul class="dash">
-      <li class="space">Academic experience designing a net-zero energy condominium.
+      <li  data-aos="fade-zoom-in" class="space">Academic experience designing a net-zero energy condominium.
         Deliverables included; architectural 3D renderings, economic
         feasibility study, building envelope design, LEED certification,
         simple steel frame structural analysis, construction estimates, and design
         that encourages alternative modes of transportation.
       </li>
 
-      <li class="space">Professional experience using GIS products including ArcGIS,
+      <li data-aos="fade-zoom-in" class="space">Professional experience using GIS products including ArcGIS,
         Google Earth Pro, QGIS, and Global Mapper to deliver products
         including; a civil renumeration of a community, locations of
         First Nations communities across the Yukon and British Columbia,
         and ocean bathymetry data.
       </li>
 
-      <li class="space">Academic experience redesigning a collector intersection
+      <li data-aos="fade-zoom-in" class="space">Academic experience redesigning a collector intersection
         with collaboration from the District of Saanich, the local municipality.
         Redeveloped the intersection to include separated bike panes, semi-actuated
         traffic lights, and slip lanes. Deliverables included: AutoCAD drawings, traffic
@@ -120,10 +120,9 @@
     <hr>
 
     <h3 style="margin-bottom: -30px;">Employment History</h3>
-
     <div class="wrap">
         <div class="left">
-          <p class="t accent" style="font-size: 1.1rem; font-weight: bold;">Edge Sustainability Consultants</p>
+          <p class="t">Edge Sustainability Consultants</p>
         </div>
         <div class="right">
           <p class="t">Vancouver, Canada | September - December 2017</p>
@@ -144,7 +143,7 @@
     </div>
       <ul class="dash">
         <li>Extensive work with IOT connected devices ranging from therostats to smart locks.</li>
-        <li>Developed PHP using the Laravel 5.5 framework and created custom HTML e-mails to communicate to clients.</li>
+        <li>Developed in PHP using the Laravel 5.5 framework and produced font-end designs using HTML, CSS, and Vue.js.</li>
       </ul>
 
       <div class="wrap">
@@ -219,12 +218,9 @@
       Accomplished photographer with images appearing in ELLE Canada; CBC Weather Network, Awesome Okanagan, Travel Yukon's Instagram, and several self-published photo books.
     </p>
   </div> <!--fadein div-->
-  </div>
-
-
+</div><!--Main div-->
 
   <!-- Footer -->
-
   <div class="footer" style="position: relative;">
     <div class="content" id="footer-content">
       <h1>Interested in working with me?</h1>
@@ -241,14 +237,16 @@
     </div>
   </div>
 
-</div>  <!-- Skroll id for mobile -->
+  <!-- Animate On Scroll CDN-->
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+  <script>
+  AOS.init({
+  duration: 1000
+  });
+  </script>
 
-  <!-- Skroll Libary + Color Libary -->
-  <script src="js/skroll-colors.min.js"></script>
-  <script type="text/javascript" src="assets/js/skrollr.min.js"></script>
-	<script type="text/javascript">
-	var s = skrollr.init([forceHeight=false]);
-	</script>
+  <!-- Header Change Color-->
+  <script src="assets/js/Header.js"></script>
 
 </body>
 </html>
