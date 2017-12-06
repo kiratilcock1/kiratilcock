@@ -35,8 +35,8 @@ html, body {
   width: 100%;
   z-index: 10;
   background: #f5f5f5;
-  transition-property: background;
-  transition-duration: 1s;
+  transition-property: background, box-shadow;
+  transition-duration: 1s, 1s;
   transition-timing-function: ease;
 }
 #header.header-color {
