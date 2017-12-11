@@ -3,10 +3,10 @@ var header = document.getElementById("header");
 var contactbutton = document.getElementById("contactbutton");
 
 function add_class_on_scroll() {
-    header.classList.add("header-color");
+  header.classList.add("header-color");
 }
 function remove_class_on_scroll() {
-    header.classList.remove("header-color");
+  header.classList.remove("header-color");
 }
 function button_add() {
   contactbutton.classList.add("button-outline");
