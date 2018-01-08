@@ -133,6 +133,9 @@ h3 {
   margin-right: auto;
   text-align: center;
 }
+.m-t-50 {
+  margin-top: 50px;
+}
 li,
 t,
 p {
@@ -213,6 +216,16 @@ a.color:hover {
 .button-outline:hover {
   background: #0e4785;
   color: #f5f5f5;
+}
+.button-second {
+  background: #f5f5f5;
+  color: #0e5096;
+  border: 2px solid #0e5096;
+}
+.button-second:hover {
+  background: #0e5096;
+  color: #f5f5f5;
+  border: 2px solid #0e5096;
 }
 
 
