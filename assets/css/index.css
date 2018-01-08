@@ -347,6 +347,9 @@ i.no-stroke {
   body {
     -webkit-text-size-adjust: 100%;
   }
+  .left-on-mobile {
+    text-align: left;
+  }
 }
 
 @media (max-width: 780px) {
