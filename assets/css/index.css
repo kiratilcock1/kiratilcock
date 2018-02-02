@@ -65,7 +65,7 @@ html, body {
   margin-top: 50px;
 }
 .circle {
-  background: linear-gradient(315deg, ##f9ef93 0%, #f7c35b 100%);
+  background: linear-gradient(315deg, #f9ef93 0%, #f7c35b 100%);
   display: block;
   width: 150px;
   height: 150px;
