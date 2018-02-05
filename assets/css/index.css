@@ -18,10 +18,12 @@
   box-sizing: border-box;
 }
 
-img {
+/* img {
   max-width:400px;
   max-height:250px;
 }
+
+*/
 
 html, body {
   margin: 0;
