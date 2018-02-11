@@ -301,6 +301,23 @@ hr {
   -ms-grid-row: 2;
   -ms-grid-column: 4;
 }
+
+.i {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+}
+.j {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+}
+.k {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+}
+.l {
+  -ms-grid-row: 3;
+  -ms-grid-column: 4;
+}
 .skill {
   margin-left: auto;
   margin-right: auto;
